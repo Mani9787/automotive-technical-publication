@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_disc_brake">
+    <title>Front Disc Brake Caliper System</title>
+    <shortdesc>Functional overview and operational principles of the single piston floating caliper assembly.</shortdesc>
+    <conbody>
+        <section>
+            <title>System Overview</title>
+            <p>The front disc brake system provides controlled braking deceleration by converting hydraulic pressure into mechanical clamping force against the brake rotor.</p>
+        </section>
+        <section>
+            <title>Principle of Operation</title>
+            <p>When the rider applies the front brake lever, hydraulic fluid from the master cylinder forces the caliper piston (Item 8) outward. This movement presses the inner brake pad against the rotating disc.</p>
+            <p>As hydraulic pressure increases, the floating caliper body (Item 10) slides along the guide pins (Items 1 and 2), pulling the outer brake pad against the opposite surface of the disc. This dual clamping action generates friction to reduce wheel speed.</p>
+        </section>
+        <section>
+            <title>Key Service Specifications</title>
+            <ul>
+                <li>Brake fluid specification: DOT 4</li>
+                <li>Standard pad friction thickness: 4.5 mm</li>
+                <li>Service wear limit: 1.5 mm</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

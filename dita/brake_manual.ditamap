@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_brake_manual">
+    <title>Service &amp; Parts Manual: Single Piston Floating Caliper</title>
+    
+    <!-- Conceptual Background Topic -->
+    <topicref href="concept_disc_brake.dita" type="concept"/>
+    
+    <!-- Procedural Maintenance Task Topic -->
+    <topicref href="task_brake_pad_replacement.dita" type="task"/>
+    
+    <!-- Parts Catalog & BOM Reference Topic -->
+    <topicref href="reference_ipc_disc_brake.dita" type="reference"/>
+</map>

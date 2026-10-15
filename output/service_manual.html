@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technical Service & Parts Manual</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 22px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            color: #111;
+        }
+        h2.subtitle {
+            font-size: 15px;
+            font-weight: normal;
+            color: #444;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        h2.section-title {
+            font-size: 16px;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 4px;
+            margin-top: 24px;
+            color: #0056b3;
+        }
+        h3 {
+            font-size: 14px;
+            margin-top: 14px;
+            margin-bottom: 6px;
+            color: #222;
+        }
+        p, li {
+            font-size: 13px;
+        }
+        ul, ol {
+            padding-left: 20px;
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        .caution-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 8px 12px;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        .caution-box strong {
+            color: #856404;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px 0;
+            font-size: 12.5px;
+        }
+        th, td {
+            border: 1px solid #bbb;
+            padding: 7px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f4f8;
+            font-weight: bold;
+            color: #111;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .diagram-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .diagram-container img {
+            max-width: 85%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 4px;
+            background: #fff;
+        }
+        .diagram-caption {
+            font-size: 12px;
+            font-style: italic;
+            color: #555;
+            margin-top: 4px;
+        }
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        .print-btn-bar {
+            background: #e9ecef;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn {
+            background: #0056b3;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #004494;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-btn-bar no-print">
+        <span><strong>Preview Mode:</strong> Click the button to export as PDF directly.</span>
+        <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <h1>Technical Service &amp; Parts Manual</h1>
+    <h2 class="subtitle">Single Piston Floating Caliper Assembly</h2>
+
+    <!-- Document Control Block -->
+    <table>
+        <thead>
+            <tr>
+                <th>Document ID</th>
+                <th>Revision</th>
+                <th>Standard</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>DOC-BRK-2026-01</strong></td>
+                <td>Rev 1.0</td>
+                <td>ASD-STE100 / DITA XML 1.3</td>
+                <td>October 2026</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section 1 -->
+    <h2 class="section-title">1. System Overview</h2>
+    <p>The front disc brake system provides controlled braking deceleration by converting hydraulic pressure into mechanical clamping force against the brake rotor.</p>
+
+    <h3>1.1 Principle of Operation</h3>
+    <p>When the rider applies the front brake lever, hydraulic fluid from the master cylinder forces the caliper piston (Item 8) outward. This movement presses the inner brake pad against the rotating disc.</p>
+    <p>As hydraulic pressure increases, the floating caliper body (Item 10) slides along the guide pins (Items 1 and 2), pulling the outer brake pad against the opposite surface of the disc. This dual clamping action generates friction to reduce wheel speed.</p>
+
+    <h3>1.2 Key Service Specifications</h3>
+    <ul>
+        <li><strong>Brake fluid specification:</strong> DOT 4</li>
+        <li><strong>Standard pad friction thickness:</strong> 4.5 mm</li>
+        <li><strong>Service wear limit:</strong> 1.5 mm</li>
+    </ul>
+
+    <!-- Section 2 -->
+    <h2 class="section-title">2. Brake Pad Replacement Procedure</h2>
+    <p><strong>Prerequisites &amp; Safety:</strong></p>
+    <ul>
+        <li>Park the vehicle on a level surface and secure the center stand.</li>
+        <li><strong>Required Tools:</strong> 12 mm socket wrench, 8 mm hex key, vernier caliper, torque wrench.</li>
+    </ul>
+
+    <div class="caution-box">
+        <strong>CAUTION:</strong> Brake fluid damages painted surfaces. Wipe spills immediately with a clean, dry cloth.
+    </div>
+
+    <p><strong>Step-by-Step Removal &amp; Installation:</strong></p>
+    <ol>
+        <li>Loosen the guide pin (Item 1) and lock pin (Item 2) by two turns using an 8 mm hex key. <em>(Do not remove the pins completely at this stage.)</em></li>
+        <li>Remove the caliper mounting bolts securing the caliper body (Item 10) to the fork bracket.</li>
+        <li>Slide the caliper body (Item 10) backward away from the brake rotor. <em>(The caliper is now free from the wheel assembly.)</em></li>
+        <li>Unscrew and remove guide pin (Item 1) and lock pin (Item 2).</li>
+        <li>Remove the inner pad with wear indicator (Item 11) and the outer pad (Item 12).</li>
+        <li>Measure the friction lining thickness of both pads using a vernier caliper. <em>(If lining thickness is less than 1.5 mm, replace both pads as a complete set.)</em></li>
+        <li>Clean the caliper bracket, pad clips, and guide pins with approved brake cleaner.</li>
+        <li>Install the new inner pad (Item 11) and outer pad (Item 12) into the caliper support (Item 4).</li>
+        <li>Tighten the guide pin (Item 1) to <strong>27 Nm</strong> and lock pin (Item 2) to <strong>22 Nm</strong> using a torque wrench.</li>
+    </ol>
+
+    <p><strong>Post-requisite:</strong> Pump the brake lever several times to seat the pads against the rotor before operating the vehicle.</p>
+
+    <!-- Section 3 -->
+    <h2 class="section-title">3. Illustrated Parts Catalog (IPC)</h2>
+
+    <div class="diagram-container">
+        <img src="../images/fig1_exploded_view.gif" alt="Single Piston Floating Caliper Exploded View">
+        <div class="diagram-caption">Figure 1: Single Piston Floating Caliper - Exploded View</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="center-text" style="width: 10%;">Item No.</th>
+                <th style="width: 25%;">Part Number</th>
+                <th style="width: 35%;">Description</th>
+                <th class="center-text" style="width: 10%;">Qty</th>
+                <th style="width: 20%;">Remarks / Torque</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center-text"><strong>1</strong></td>
+                <td>5120-GP-01</td>
+                <td>Guide Pin</td>
+                <td class="center-text">1</td>
+                <td>Torque: 27 Nm</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>2</strong></td>
+                <td>5120-LP-02</td>
+                <td>Lock Pin</td>
+                <td class="center-text">1</td>
+                <td>Torque: 22 Nm</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>4</strong></td>
+                <td>5120-CS-04</td>
+                <td>Caliper Support</td>
+                <td class="center-text">1</td>
+                <td>Carrier bracket</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>8</strong></td>
+                <td>5128-CP-32</td>
+                <td>Piston</td>
+                <td class="center-text">1</td>
+                <td>Diameter: 32 mm</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>9</strong></td>
+                <td>5129-PS-32</td>
+                <td>Piston Seal</td>
+                <td class="center-text">1</td>
+                <td>Replace upon overhaul</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>10</strong></td>
+                <td>5120-CB-10</td>
+                <td>Caliper Body</td>
+                <td class="center-text">1</td>
+                <td>Cast iron/alloy</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>11</strong></td>
+                <td>5122-PD-11</td>
+                <td>Pad &amp; Wear Indicator Assembly</td>
+                <td class="center-text">1</td>
+                <td>Inner pad</td>
+            </tr>
+            <tr>
+                <td class="center-text"><strong>12</strong></td>
+                <td>5122-PD-12</td>
+                <td>Pad Assembly</td>
+                <td class="center-text">1</td>
+                <td>Outer pad</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

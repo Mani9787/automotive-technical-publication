@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_brake_pad_replacement">
+    <title>Brake Pad Replacement Procedure</title>
+    <shortdesc>Step-by-step instructions for removing, inspecting, and installing front disc brake pads.</shortdesc>
+    <taskbody>
+        <prereq>
+            <p>Park the vehicle on a level surface and secure the center stand.</p>
+            <note type="caution">Brake fluid damages painted surfaces. Wipe spills immediately with a clean, dry cloth.</note>
+            <p>Required Tools: 12 mm socket wrench, 8 mm hex key, vernier caliper, torque wrench.</p>
+        </prereq>
+        
+        <steps>
+            <step>
+                <cmd>Loosen the guide pin (Item 1) and lock pin (Item 2) by two turns using an 8 mm hex key.</cmd>
+                <info>Do not remove the pins completely at this stage.</info>
+            </step>
+            
+            <step>
+                <cmd>Remove the caliper mounting bolts securing the caliper body (Item 10) to the fork bracket.</cmd>
+            </step>
+            
+            <step>
+                <cmd>Slide the caliper body (Item 10) backward away from the brake rotor.</cmd>
+                <stepresult>The caliper is now free from the wheel assembly.</stepresult>
+            </step>
+            
+            <step>
+                <cmd>Unscrew and remove guide pin (Item 1) and lock pin (Item 2).</cmd>
+            </step>
+            
+            <step>
+                <cmd>Remove the inner pad with wear indicator (Item 11) and the outer pad (Item 12).</cmd>
+            </step>
+            
+            <step>
+                <cmd>Measure the friction lining thickness of both pads using a vernier caliper.</cmd>
+                <stepresult>If the lining thickness is less than 1.5 mm, replace both pads as a complete set.</stepresult>
+            </step>
+            
+            <step>
+                <cmd>Clean the caliper bracket, pad clips, and guide pins with approved brake cleaner.</cmd>
+            </step>
+            
+            <step>
+                <cmd>Install the new inner pad (Item 11) and outer pad (Item 12) into the caliper support (Item 4).</cmd>
+            </step>
+            
+            <step>
+                <cmd>Tighten the guide pin (Item 1) to 27 Nm and lock pin (Item 2) to 22 Nm using a torque wrench.</cmd>
+            </step>
+        </steps>
+        
+        <postreq>
+            <p>Pump the brake lever several times to seat the pads against the rotor before operating the vehicle.</p>
+        </postreq>
+    </taskbody>
+</task>

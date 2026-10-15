@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ref_ipc_disc_brake">
+    <title>Illustrated Parts Catalog: Single Piston Floating Caliper</title>
+    <shortdesc>Illustrated parts breakdown and Bill of Materials (BOM) for the front brake caliper assembly.</shortdesc>
+    <refbody>
+        <section>
+            <title>Exploded View Diagram</title>
+            <fig id="fig_caliper_exploded">
+                <title>Single Piston Floating Caliper - Exploded View</title>
+                <image href="../images/fig1_exploded_view.gif" placement="break"/>
+            </fig>
+        </section>
+        <section>
+            <title>Bill of Materials (BOM)</title>
+            <table frame="all" id="table_caliper_bom">
+                <title>Caliper Assembly Component List</title>
+                <tgroup cols="5">
+                    <colspec colname="c1" colwidth="1*"/>
+                    <colspec colname="c2" colwidth="2.5*"/>
+                    <colspec colname="c3" colwidth="3.5*"/>
+                    <colspec colname="c4" colwidth="1*"/>
+                    <colspec colname="c5" colwidth="2*"/>
+                    <thead>
+                        <row>
+                            <entry>Item No.</entry>
+                            <entry>Part Number</entry>
+                            <entry>Description</entry>
+                            <entry>Qty</entry>
+                            <entry>Remarks / Torque</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>1</entry>
+                            <entry>5120-GP-01</entry>
+                            <entry>Guide Pin</entry>
+                            <entry>1</entry>
+                            <entry>Torque: 27 Nm</entry>
+                        </row>
+                        <row>
+                            <entry>2</entry>
+                            <entry>5120-LP-02</entry>
+                            <entry>Lock Pin</entry>
+                            <entry>1</entry>
+                            <entry>Torque: 22 Nm</entry>
+                        </row>
+                        <row>
+                            <entry>4</entry>
+                            <entry>5120-CS-04</entry>
+                            <entry>Caliper Support</entry>
+                            <entry>1</entry>
+                            <entry>Carrier bracket</entry>
+                        </row>
+                        <row>
+                            <entry>8</entry>
+                            <entry>5128-CP-32</entry>
+                            <entry>Piston</entry>
+                            <entry>1</entry>
+                            <entry>Diameter: 32 mm</entry>
+                        </row>
+                        <row>
+                            <entry>9</entry>
+                            <entry>5129-PS-32</entry>
+                            <entry>Piston Seal</entry>
+                            <entry>1</entry>
+                            <entry>Replace upon overhaul</entry>
+                        </row>
+                        <row>
+                            <entry>10</entry>
+                            <entry>5120-CB-10</entry>
+                            <entry>Caliper Body</entry>
+                            <entry>1</entry>
+                            <entry>Cast iron/alloy</entry>
+                        </row>
+                        <row>
+                            <entry>11</entry>
+                            <entry>5122-PD-11</entry>
+                            <entry>Pad &amp; Wear Indicator Assembly</entry>
+                            <entry>1</entry>
+                            <entry>Inner pad</entry>
+                        </row>
+                        <row>
+                            <entry>12</entry>
+                            <entry>5122-PD-12</entry>
+                            <entry>Pad Assembly</entry>
+                            <entry>1</entry>
+                            <entry>Outer pad</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>
